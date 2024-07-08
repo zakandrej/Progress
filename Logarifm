@@ -1,0 +1,6 @@
+sql
+SELECT 
+    value,
+    LOG(value) / LOG(2) AS log_base_2
+FROM 
+    numbers;
